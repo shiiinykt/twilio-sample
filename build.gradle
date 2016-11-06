@@ -60,3 +60,5 @@ task wrapper(type: Wrapper) {
 task stage {
   dependsOn assemble
 }
+
+mainClassName = 'com.heroku.shiiinykt_twilio_sample.TwilioSample'
