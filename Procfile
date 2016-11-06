@@ -1,0 +1,1 @@
+web:    java -jar build/libs/shiiinykt-twilio-sample-0.1.jar

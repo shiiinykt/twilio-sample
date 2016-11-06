@@ -1,0 +1,44 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Eclipse
+.project
+.classpath
+.settings
+
+# Idea
+.idea
+*.iml
+*.iws
+*.ipr
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Cradle
+.gradle
+!gradle-wrapper.jar
+gradle
+
+# Maven
+target
+
+# Build
+out
+build
+bin
+
+#Foreman
+.env
+
+#Yaml
+*.yaml
+
+# Other
+*.log
+*.swp
+*.bak
