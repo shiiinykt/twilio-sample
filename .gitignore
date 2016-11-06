@@ -22,7 +22,6 @@ Thumbs.db
 # Cradle
 .gradle
 !gradle-wrapper.jar
-gradle
 
 # Maven
 target
