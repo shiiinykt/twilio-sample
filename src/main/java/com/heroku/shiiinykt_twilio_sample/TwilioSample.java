@@ -27,8 +27,10 @@ public class TwilioSample {
 		staticFileLocation("/public"); 
 
 		get("/", (req, res) -> {
+			Map<String, Object> attributes = new HashMap<>();
+			attributes.put(MESSAGE_KEY, MESSAGE_CACHE.get(MESSAGE_KEY));
 			
-			return new ModelAndView(null, "templates/index.peb");
+			return new ModelAndView(attributes, "templates/index.peb");
 		}, getTemplateEngine());
 
 		post("/", (req, res) ->{
